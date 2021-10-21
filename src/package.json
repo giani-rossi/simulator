@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.17",
+    "@parcel/package-manager": "^2.0.0-rc.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "node-sass": "^6.0.1",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.41.0"
+  }
+}
